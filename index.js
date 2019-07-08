@@ -11,3 +11,9 @@ var logShout = word => {
 var logWhisper = word => {
   console.log(whisper(word))
 }
+
+var sayHiToGrandma = hi => {
+  if(hi.toLowerCase() === hi)
+  if(hi.toUpperCase() === hi)
+  
+}
