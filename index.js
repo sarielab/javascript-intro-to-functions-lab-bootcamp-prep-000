@@ -1,6 +1,4 @@
-const shout = (shout) => {
+var shout = (shout) => {
   return `${shout}`.toUpperCase()
 }
-export {
-  shout
-}
+
