@@ -1,5 +1,13 @@
-var shout = (shout) => {
-  return `${shout}`.toUpperCase()
+var shout = (word) => {
+  return `${word}`.toUpperCase()
 }
 
-var whisper = (shout)
+var whisper = (word) => (`${word}`.toLowerCase())
+
+var logShout = word => {
+  console.log(shout(word))
+}
+
+var logWhisper = word => {
+  console.log(whisper(word))
+}
