@@ -14,7 +14,7 @@ var logWhisper = word => {
 
 var sayHiToGrandma = hi => {
   const word = {
-    upper: 'YES INDEED',
+    upper: 'YES INDEED!',
     lower: `I can't hear you!`,
     love: 'I love you, too.',
     default: '',
