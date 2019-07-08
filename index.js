@@ -19,7 +19,7 @@ var sayHiToGrandma = hi => {
     love: 'I love you, too.',
     default: '',
   }
-  let status = 'default'
+  let status
   if(hi.toLowerCase() === hi) status = 'lower'
   else if(hi.toUpperCase() === hi) status = 'upper'
   else if (hi === 'I love you, Grandma.') status = 'love'
